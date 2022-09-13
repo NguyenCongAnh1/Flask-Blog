@@ -1,0 +1,17 @@
+See what the @login_required decorator looks like: 
+Dùng ngăn chặn viêc truy cập trực tiếp vào edit_post mà ko đăng nhập dưới quyền 
+admin (quản trị viên)
+https://flask.palletsprojects.com/en/1.1.x/patterns/viewdecorators/#login-required-decorator
+
+
+
+HTTP errors like 403 or 404: 
+Hiển thị lỗi trên trang web khi truy cập trực tiếp 
+https://flask.palletsprojects.com/en/1.1.x/patterns/errorpages/
+
+
+create a One to Many relationship between the User Table and the BlogPost table
+https://docs.sqlalchemy.org/en/13/orm/basic_relationships.html
+
+Flask Gravatar, lấy avatar đơn giản cho người dùng
+https://pythonhosted.org/Flask-Gravatar/
